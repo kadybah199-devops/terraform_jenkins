@@ -1,0 +1,10 @@
+aws_region        = "us-east-1"
+availability_zone = "us-east-1a"
+instance_type     = "t2.medium"
+instance_tag      = "jenkins-prod"
+ebs_size          = 30
+ebs_type          = "gp2"
+ebs_name          = "jenkins-data-vol"
+eip_name          = "jenkins-public-ip"
+sg_name           = "jenkins-sg-prod"
+key_name          = "jenkins-key-prod"
