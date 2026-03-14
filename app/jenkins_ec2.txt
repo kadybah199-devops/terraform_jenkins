@@ -1,5 +1,0 @@
-===== Jenkins Server Information =====
-Public IP  : 44.196.71.236
-Public DNS : ec2-44-196-71-236.compute-1.amazonaws.com
-Jenkins URL: http://44.196.71.236:8080
-=======================================
