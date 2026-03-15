@@ -70,8 +70,8 @@ ssh -i jenkins-key-prod.pem ubuntu@<PUBLIC_IP>
 
 | Variable           | Description                   | Défaut         |
 |--------------------|-------------------------------|----------------|
-| `aws_region`       | Région AWS                    | `eu-west-3`    |
-| `availability_zone`| Zone de disponibilité         | `eu-west-3a`   |
+| `aws_region`       | Région AWS                    | `us-east-1`    |
+| `availability_zone`| Zone de disponibilité         | `us-east-1a`   |
 | `instance_type`    | Type d'instance EC2           | `t2.medium`    |
 | `instance_tag`     | Nom de l'instance             | `jenkins-prod` |
 | `ebs_size`         | Taille du volume EBS (Go)     | `30`           |
